@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_activity_label">Football Scores</string>
+
+    <string name="menu_title_action_settings">Settings</string>
+    <string name="menu_title_action_about">About</string>
+    <string name="button_title_share">Share</string>
+
+    <string name="day_name_today">Today</string>
+    <string name="day_name_yesterday">Yesterday</string>
+    <string name="day_name_before_yesterday">Day Before Yesterday</string>
+    <string name="day_name_tomorrow">Tomorrow</string>
+    <string name="day_name_after_tomorrow">Day After Tomorrow</string>
+
+    <string name="league_name_champions_league">UEFA Champions League</string>
+    <string name="league_name_bundesliga">Bundesliga</string>
+    <string name="league_name_premierleague">Premier League</string>
+    <string name="league_name_primeradivison">Primera Division</string>
+    <string name="league_name_seriaa">Serie A</string>
+    <string name="league_name_unknown">Unknown league, please report</string>
+
+    <string name="match_day_category_prefix">Match Day</string>
+    <string name="match_day_category_up_to_6">Group Stages, Match Day : 6</string>
+    <string name="match_day_category_7_or_8">First Knockout Round</string>
+    <string name="match_day_category_9_or_10">Quarter Final</string>
+    <string name="match_day_category_11_or_12">Semi Final</string>
+    <string name="match_day_category_more_than_12">Final</string>
+
+    <string name="widget_day_button_caption_tomorrow">TMR</string>
+    <string name="widget_day_button_caption_day_after_tomorrow">DAT</string>
+    <string name="widget_day_button_caption_today">TDA</string>
+    <string name="widget_day_button_caption_yesterday">YDA</string>
+    <string name="widget_day_button_caption_day_before_yesterday">DBY</string>
+
+    <string name="scores_list_item_content_description_home_crest">Crest of home team</string>
+    <string name="scores_list_item_content_description_away_crest">Crest of away team</string>
+    <string name="details_view_content_description_prefix_share_button">"Share text: "</string>
+    <string name="details_view_content_description_prefix_league_name">"League name: "</string>
+    <string name="details_view_content_description_prefix_match_day">"Match day: "</string>
+    <string name="score_list_details_content_description_prefix_home_team">"Home team: "</string>
+    <string name="score_list_details_content_description_prefix_away_team">"Away team: "</string>
+    <string name="score_list_details_content_description_prefix_match_time">"Match time: "</string>
+    <string name="score_list_details_content_description_prefix_score">"Score: "</string>
+
+    <string name="empty_widget_view_text">No football scores available&#8230; :(</string>
+
+        <string name="about_text">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+
+    <!-- NON-TRANSLATABLE -->
+
+    <string name="app_name" translatable="false">Football Scores</string>
+
+    <string name="football_scores_share_hashtag" translatable="false">#Football_Scores</string>
+
+    <string name="team_name_crest_arsenal" translatable="false">Arsenal London FC</string>
+    <string name="team_name_crest_manchester" translatable="false">Manchester United FC</string>
+    <string name="team_name_crest_swansea" translatable="false">Swansea City</string>
+    <string name="team_name_crest_leicester" translatable="false">Leicester City</string>
+    <string name="team_name_crest_everton" translatable="false">Everton FC</string>
+    <string name="team_name_crest_westham" translatable="false">West Ham United FC</string>
+    <string name="team_name_crest_tottenham" translatable="false">Tottenham Hotspur FC</string>
+    <string name="team_name_crest_west_bromwich" translatable="false">West Bromwich Albion</string>
+    <string name="team_name_crest_sunderland" translatable="false">Sunderland AFC</string>
+    <string name="team_name_crest_stoke_city" translatable="false">Stoke City FC</string>
+
+    <string name="test_text" translatable="false">Test</string>
+    <string name="test_team_home" translatable="false">Epsilon Indi</string>
+    <string name="test_team_away" translatable="false">Zeta Leporis</string>
+    <string name="test_score" translatable="false">5-7</string>
+    <string name="test_order" translatable="false">1</string>
+
+    <!-- INSERT_YOUR_OWN_API_KEY_HERE -->
+    <string name="api_key" translatable="false">INSERT_YOUR_OWN_API_KEY_HERE</string>
+
+    <!-- AlexSt: Modifyed fake data to have 3 match scores with fake teams having names of nearest star systems-->
+    <string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Alpha Centauri\",\"awayTeamName\":\"Epsilon Indi\",\"result\":{\"goalsHomeTeam\":23,\"goalsAwayTeam\":18}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Alpha Centauri\",\"awayTeamName\":\"Epsilon Indi\",\"result\":{\"goalsHomeTeam\":23,\"goalsAwayTeam\":18}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Alpha Centauri\",\"awayTeamName\":\"Epsilon Indi\",\"result\":{\"goalsHomeTeam\":23,\"goalsAwayTeam\":18}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Alpha Centauri\",\"awayTeamName\":\"Epsilon Indi\",\"result\":{\"goalsHomeTeam\":23,\"goalsAwayTeam\":18}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Alpha Centauri\",\"awayTeamName\":\"Epsilon Indi\",\"result\":{\"goalsHomeTeam\":23,\"goalsAwayTeam\":18}}]}</string>
+    <string name="dummy_data_2" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140515\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Zeta Leporis\",\"awayTeamName\":\"Proxima Centauri\",\"result\":{\"goalsHomeTeam\":5,\"goalsAwayTeam\":2}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140515\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Zeta Leporis\",\"awayTeamName\":\"Proxima Centauri\",\"result\":{\"goalsHomeTeam\":5,\"goalsAwayTeam\":2}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140515\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Zeta Leporis\",\"awayTeamName\":\"Proxima Centauri\",\"result\":{\"goalsHomeTeam\":5,\"goalsAwayTeam\":2}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140515\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Zeta Leporis\",\"awayTeamName\":\"Proxima Centauri\",\"result\":{\"goalsHomeTeam\":5,\"goalsAwayTeam\":2}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140515\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Zeta Leporis\",\"awayTeamName\":\"Proxima Centauri\",\"result\":{\"goalsHomeTeam\":5,\"goalsAwayTeam\":2}}]}</string>
+    <string name="dummy_data_3" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140516\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Solar System\",\"awayTeamName\":\"Tau Ceti\",\"result\":{\"goalsHomeTeam\":7,\"goalsAwayTeam\":13}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140516\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Solar System\",\"awayTeamName\":\"Tau Ceti\",\"result\":{\"goalsHomeTeam\":7,\"goalsAwayTeam\":13}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140516\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Solar System\",\"awayTeamName\":\"Tau Ceti\",\"result\":{\"goalsHomeTeam\":7,\"goalsAwayTeam\":13}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140516\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Solar System\",\"awayTeamName\":\"Tau Ceti\",\"result\":{\"goalsHomeTeam\":7,\"goalsAwayTeam\":13}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140516\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"Solar System\",\"awayTeamName\":\"Tau Ceti\",\"result\":{\"goalsHomeTeam\":7,\"goalsAwayTeam\":13}}]}</string>
+
+</resources>

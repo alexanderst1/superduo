@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Content description for text view and button is set up via 'setContentDescription'
+    in ScoresAdapter.java -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_fragment_league_and_match_day_margin_top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/test_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_league"
+            android:id="@+id/text_league_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/test_text"
+            android:textSize="@dimen/text_size_league"
+            android:textColor="@android:color/black"
+            android:id="@+id/text_match_day"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/share_button_frame_layout_margin_top">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/button_title_share"
+            android:id="@+id/button_share"
+            android:drawableLeft="@android:drawable/ic_menu_share"
+            android:paddingLeft="@dimen/share_button_padding_left_and_right"
+            android:paddingRight="@dimen/share_button_padding_left_and_right"/>
+    </FrameLayout>
+
+</LinearLayout>

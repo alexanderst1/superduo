@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/widget_list_item_width"
+    android:layout_height="@dimen/widget_list_item_height"
+    android:id="@+id/widget_list_item"
+    android:background="@drawable/bg_widget_list_item">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_order"
+        android:id="@+id/item_order_number"
+        android:textColor="@color/widget_list_item_text_color"
+        android:textSize="@dimen/widget_list_item_order_text_size"
+        android:layout_gravity="top|start"
+        android:paddingLeft="@dimen/widget_list_item_order_number_padding_left"
+        android:paddingRight="@dimen/widget_list_item_order_number_padding_left"
+        android:paddingTop="@dimen/widget_list_item_order_number_padding_top" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_team_home"
+        android:id="@+id/home_name"
+        android:textColor="@color/widget_list_item_text_color"
+        android:textSize="@dimen/widget_list_item_team_text_size"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_score"
+        android:id="@+id/score"
+        android:textColor="@color/widget_list_item_text_color"
+        android:textSize="@dimen/widget_list_item_score_text_size"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_team_away"
+        android:id="@+id/away_name"
+        android:textColor="@color/widget_list_item_text_color"
+        android:textSize="@dimen/widget_list_item_team_text_size"
+        android:gravity="center" />
+    </LinearLayout>
+
+</FrameLayout>

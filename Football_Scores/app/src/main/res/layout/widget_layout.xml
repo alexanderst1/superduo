@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/widget_margin" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:gravity="top">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_button_height"
+            android:layout_weight="1"
+            android:text="@string/widget_day_button_caption_day_before_yesterday"
+            android:contentDescription="@string/day_name_before_yesterday"
+            android:textSize="@dimen/widget_button_text_size"
+            android:textColor="@color/widget_button_text_color"
+            android:background="@color/widget_button_background"
+            android:layout_margin="@dimen/widget_button_margin"
+            android:id="@+id/buttonBeforeYesterday"
+            android:clickable="false" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_button_height"
+            android:layout_weight="1"
+            android:text="@string/widget_day_button_caption_yesterday"
+            android:contentDescription="@string/day_name_yesterday"
+            android:textSize="@dimen/widget_button_text_size"
+            android:textColor="@color/widget_button_text_color"
+            android:background="@color/widget_button_background"
+            android:layout_margin="@dimen/widget_button_margin"
+            android:id="@+id/buttonYesterday"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_button_height"
+            android:layout_weight="1"
+            android:text="@string/widget_day_button_caption_today"
+            android:contentDescription="@string/day_name_today"
+            android:textSize="@dimen/widget_button_text_size"
+            android:textColor="@color/widget_button_text_color"
+            android:background="@color/widget_button_background"
+            android:layout_margin="@dimen/widget_button_margin"
+            android:id="@+id/buttonToday"
+            android:clickable="false" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_button_height"
+            android:layout_weight="1"
+            android:text="@string/widget_day_button_caption_tomorrow"
+            android:contentDescription="@string/day_name_tomorrow"
+            android:textSize="@dimen/widget_button_text_size"
+            android:textColor="@color/widget_button_text_color"
+            android:background="@color/widget_button_background"
+            android:layout_margin="@dimen/widget_button_margin"
+            android:id="@+id/buttonTomorrow"
+            android:clickable="false" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_button_height"
+            android:layout_weight="1"
+            android:text="@string/widget_day_button_caption_day_after_tomorrow"
+            android:contentDescription="@string/day_name_after_tomorrow"
+            android:textSize="@dimen/widget_button_text_size"
+            android:textColor="@color/widget_button_text_color"
+            android:background="@color/widget_button_background"
+            android:layout_margin="@dimen/widget_button_margin"
+            android:id="@+id/buttonAfterTomorrow"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+
+    <StackView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/stack_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:loopViews="false"
+        android:focusable="false" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_widget_list_item"
+        android:gravity="center"
+        android:text="@string/empty_widget_view_text"
+        android:contentDescription="@string/empty_widget_view_text"
+        android:textColor="@color/widget_list_item_text_color"
+        android:textSize="@dimen/widget_list_item_team_text_size"/>
+</LinearLayout>
+
+</FrameLayout>
