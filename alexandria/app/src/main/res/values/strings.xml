@@ -39,5 +39,6 @@
   <string name="msg_default_time">Time</string>
   <string name="msg_default_type">Type</string>
   <string name="result_isbn">Found book</string>
+    <string name="no_network_message">No network connection available, please check WiFi or Data connection</string>
 
 </resources>

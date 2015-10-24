@@ -76,6 +76,12 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
                     clearFields();
                     return;
                 }
+
+                if (!Utils.isNetworkAvailable(getActivity())) {
+                    Utils.showToastNoNetworkAvailable(getActivity());
+                    return;
+                }
+
                 String eanStr = getEan13(s.toString());
                 //Once we have an ISBN, start a book intent
                 Intent bookIntent = new Intent(getActivity(), BookService.class);
@@ -121,6 +127,10 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
         rootView.findViewById(R.id.delete_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (!Utils.isNetworkAvailable(getActivity())) {
+                    Utils.showToastNoNetworkAvailable(getActivity());
+                    return;
+                }
                 Intent bookIntent = new Intent(getActivity(), BookService.class);
                 bookIntent.putExtra(BookService.EAN, ean.getText().toString());
                 bookIntent.setAction(BookService.DELETE_BOOK);

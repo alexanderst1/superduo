@@ -40,18 +40,6 @@
                         android:padding="10dp" />
 
 
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/back_button"
-                        android:layout_weight="1"
-                        android:id="@+id/backButton"
-                        android:onClick="goBack"
-                        android:src="@drawable/ic_action_undo"
-                        style="?android:attr/buttonBarButtonStyle"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"/>
-
                 </LinearLayout>
 
 

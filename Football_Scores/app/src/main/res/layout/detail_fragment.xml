@@ -40,8 +40,12 @@
             android:text="@string/button_title_share"
             android:id="@+id/button_share"
             android:drawableLeft="@android:drawable/ic_menu_share"
+            android:drawableStart="@android:drawable/ic_menu_share"
             android:paddingLeft="@dimen/share_button_padding_left_and_right"
-            android:paddingRight="@dimen/share_button_padding_left_and_right"/>
+            android:paddingStart="@dimen/share_button_padding_left_and_right"
+            android:paddingRight="@dimen/share_button_padding_left_and_right"
+            android:paddingEnd="@dimen/share_button_padding_left_and_right"/>
+        />
     </FrameLayout>
 
 </LinearLayout>
