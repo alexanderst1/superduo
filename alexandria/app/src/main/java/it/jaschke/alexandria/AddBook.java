@@ -127,10 +127,6 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
         rootView.findViewById(R.id.delete_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!Utils.isNetworkAvailable(getActivity())) {
-                    Utils.showToastNoNetworkAvailable(getActivity());
-                    return;
-                }
                 Intent bookIntent = new Intent(getActivity(), BookService.class);
                 bookIntent.putExtra(BookService.EAN, ean.getText().toString());
                 bookIntent.setAction(BookService.DELETE_BOOK);
