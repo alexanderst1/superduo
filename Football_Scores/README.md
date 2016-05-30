@@ -15,4 +15,5 @@
 7. Football Scores app supports layout mirroring.
 8. Strings are all included in the strings.xml file and untranslatable strings have a translatable tag marked to false.
 
-
+##### Screenshots:
+![](../img/screenshot_football_scores_small.png) ![](../img/screenshot_football_scores_widget_small.png)
