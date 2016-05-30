@@ -11,3 +11,6 @@
        - `/core/3.2.1/core-3.2.1.jar`
 2. The two errors mentioned in the UX review are handled. Extra error cases are found, accounted for, and called out in code comments. 
    * Please search for "AlexSt" over source code to find comments about fixed issues
+
+##### Screenshot:
+![](../img/screenshot_barcode_scanning_layout_small.png)
