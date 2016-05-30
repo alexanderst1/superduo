@@ -14,9 +14,11 @@ Execute the improvements!
 
 ### Completed Tasks
 
-* Alexandria
-[](/img/screenshot_barcode_scanning_layout_small.png)
+* Alexandria [improvements](/alexandria/README.md)
 
-* Football Scores
-[](/img/screenshot_football_scores_small.png) [](/img/screenshot_football_scores_widget_small.png)
+![](/img/screenshot_barcode_scanning_layout_small.png)
+
+* Football Scores [improvements](/Football_Scores/README.md)
+
+![](/img/screenshot_football_scores_small.png) ![](/img/screenshot_football_scores_widget_small.png)
 
